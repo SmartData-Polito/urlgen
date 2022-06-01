@@ -1,6 +1,6 @@
 # URLGEN -- Towards Automatic URL Generation Using GANs
 
-This is a work in progress. Further updates will increase the number of parameters available to control de model.
+*This is a work in progress. Further updates will increase the number of parameters available to control de model.*
 
 URLs play an essential role on the Internet, allowing the access to Web resources. Automatically generating URLs is helpful in various tasks, such as for application debugging, API testing, and blocklist creation for security applications. Current testing suites deeply embed specialists' domain knowledge to generate suitable URLs, resulting in an ad-hoc solution for each given application. These tools thus require heavy manual intervention, with the expensive coding of rules that are hard to create and maintain.
 
@@ -15,8 +15,10 @@ We show that the URLGEN approach can be extended to other scenarios, which we il
 
 The script.py has to positional parameter. The first is the file containing samples from the target API and the second the number of new samples to generate:
 
-Ex:
+Example
 
-''' python script.py example-dataset.txt 100 '''
+``` bash
+python script.py example-dataset.txt 100
+```
 
 
